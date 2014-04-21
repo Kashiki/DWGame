@@ -1,0 +1,17 @@
+//  ================================================================================================
+//   * File Name:       PlayerController
+//   * Purpose:         The player controller of the game.
+//   * Created By:      Jaye, Bastet Studios
+//   * Time Stamp:      4/18/2014 2:36:58 PM
+//
+//   * UDK Path:   C:\UDK\UDK-2014-02
+//   * Unreal X-Editor v3.1.5.0
+//   * © Copyright 2012 - 2014. All Rights Reserved.
+//  ================================================================================================
+
+class DWPlayerController extends GamePlayerController;
+
+defaultproperties
+{
+    CameraClass=class'DWGame.DWCamera'
+}
