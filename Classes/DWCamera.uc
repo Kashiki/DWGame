@@ -94,10 +94,10 @@ function UpdateViewTarget(out TViewTarget OutVT, float DeltaTime)
    // Apply camera modifiers at the end (view shakes for example)
    ApplyCameraModifiers(DeltaTime, OutVT.POV);
 }
-
+    
 defaultproperties
 {
-   CamOffset=(X=18.0,Y=5.0,Z=-20.0)
+   CamOffset=(X=15.0,Y=25.0,Z=-20.0)
    CurrentCameraScale=1.0
    CameraScale=8.5
    CameraScaleMin=3.0
